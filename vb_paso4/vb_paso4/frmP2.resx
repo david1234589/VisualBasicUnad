@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Label5.Text" xml:space="preserve">
+    <value>Esta entidad, se encargaría de almacenar los datos de los tres mencionados o de todos los departamentos de Colombia. Esta es una entidad regular porque no depende de ninguna otra y como se puede ver en el ejemplo se representa con un rectángulo con un borde sencillo.</value>
+  </data>
+  <data name="Label3.Text" xml:space="preserve">
+    <value>Una entidad es un objeto del mundo real que es distinguible de otros objetos. Son elementos de las cuales es importante almacenar sus datos. Es decir, que cuando creamos un modelo ER debemos aprender a clasificar la información que va a contener la base de datos. En el caso de crear una base de datos que contengan la información de varios talleres alrededor de Colombia, si nos indican que sólo vamos a manejar la información de Antioquia, Cundinamarca y Boyacá no significa que son tres entidades, sino realmente es solo una a la cual podemos llamar: 
+
+</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="PictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="PictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        c5ESzInATgYAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="Label4.Text" xml:space="preserve">
+    <value>Esta entidad se emplearía para almacenar todos los municipios de Colombia, sin embargo, estos municipios dependen de la entidad departamentos, lo que indica que es una entidad regular, es por eso que se representa con un rectángulo con una línea doble.
+</value>
+  </data>
+</root>
